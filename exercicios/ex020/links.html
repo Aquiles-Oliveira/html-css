@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      a {
+        color: purple;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:visited {
+        color: lightcoral;
+      }
+
+      a:hover {
+        color: blue;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: black;
+      }
+
+      .especial::before {
+        content: "⇒";
+      }
+
+      .especial::after {
+        content: "⇐";
+      }
+
+      li {
+        font-size: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>personalizando links</h1>
+    <li><a href="https://www.instagram.com/_rosend0x">instagram</a></li>
+    <li>
+      <a href="https://www.youtube.com/@aquilesoliveira9495" class="especial"
+        >yotube</a
+      >
+    </li>
+    <li><a href="https://www.tiktok.com/@akir.esu">tiktok</a></li>
+  </body>
+</html>

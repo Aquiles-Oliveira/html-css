@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Android";
+  src: url(fontes/idroid.otf) format("opentype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Permanent+Marker&family=Pixelify+Sans:wght@400..700&display=swap");
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgb(18, 136, 18) green);
+  font-family: "Android";
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(12, 94, 12, 0.61);
+}
+
+header > h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #063d1e;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav > a {
+  color: #c5ebd6;
+  text-decoration: none;
+  margin: 0 15 px;
+  font-weight: bold;
+  transition: 0.3s;
+  padding-left: 20px;
+}
+
+nav > a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+main {
+  background-color: lightcyan;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 10px rgba(0, 0, 0, 0.349);
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+}
+
+img {
+  width: 100%;
+}
+
+.video {
+  border-radius: 10px;
+  background-color: white;
+}
+
+aside {
+  background-color: #179637d5;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: "Android";
+  text-align: left;
+}
+
+div {
+  background-color: rgb(32, 131, 32);
+  text-align: center;
+}
+
+.lista-check {
+  list-style: none;
+  padding: 0%;
+}
+
+.lista-check li {
+  margin: 4px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.lista-check li::before {
+  content: "✔";
+  left: 0%;
+  top: 0%;
+  color: black;
+  font-weight: bold;
+}
+
+.lista-dupla {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.especial {
+  background-color: #063d1e;
+  color: white;
+  text-align: center;
+}
