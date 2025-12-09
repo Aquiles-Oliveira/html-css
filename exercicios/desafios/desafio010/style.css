@@ -14,7 +14,7 @@
 }
 
 header {
-  background-image: linear-gradient(to bottom, rgb(18, 136, 18) green);
+  background-color: #05381b;
   font-family: "Android";
   height: 200px;
   color: white;
@@ -34,13 +34,14 @@ header > h1 {
 }
 
 nav {
-  background-color: #063d1e;
+  background-color: #053301d8;
   text-align: center;
   padding: 10px 0;
 }
 
 nav > a {
-  color: #c5ebd6;
+  
+  color: #ffffff;
   text-decoration: none;
   margin: 0 15 px;
   font-weight: bold;
@@ -68,8 +69,13 @@ img {
 }
 
 .video {
+  background-color: #010e07d7;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56,25%;
+  height: auto;
+  max-width: 800px;
   border-radius: 10px;
-  background-color: white;
 }
 
 aside {
