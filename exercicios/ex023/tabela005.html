@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabela</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+      }
+      .cnome {
+        background-color: darkgrey;
+      }
+      .csexo {
+        background-color: aqua;
+      }
+      .cprof {
+        background-color: red;
+      }
+      .cidade {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col class="cnome" />
+        <col class="csexo" />
+        <col class="cidade" />
+        <col class="cprof" />
+      </colgroup>
+      <caption>
+        Cadastro
+      </caption>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">sexo</th>
+        <th scope="col">Iade</th>
+        <th scope="col">profissão</th>
+      </tr>
+      <tr>
+        <td>Ana maria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Jornalista</td>
+      </tr>
+      <tr>
+        <td>Alanderson</td>
+        <td>M</td>
+        <td>20</td>
+        <td>Tec.enfermagem</td>
+      </tr>
+      <tr>
+        <td>Aquiles</td>
+        <td>M</td>
+        <td>19</td>
+        <td>Eng.Software</td>
+      </tr>
+      <tr>
+        <td>Lana</td>
+        <td>f</td>
+        <td>35</td>
+        <td>Medica</td>
+      </tr>
+    </table>
+  </body>
+</html>
