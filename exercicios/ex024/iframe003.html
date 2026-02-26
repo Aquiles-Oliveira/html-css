@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação por iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(185, 172, 172);
+        }
+        iframe {
+            width: 100vw;
+           height: 50vw;
+           margin: auto;
+           align-items: center;
+           display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        <ul>
+            <li><a href="pag001.html" target="iframe">Primeira Página</a></li>
+            <li><a href="pag002.html" target="iframe">Segunda Página</a></li>
+            <li><a href="pag003.html" target="iframe">Terceira Pagina</a></li>
+        </ul>
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quos ad soluta fugit, voluptatum, numquam ut quas voluptatem, facilis excepturi nulla quod minus reiciendis earum? Quae, vel! Repellat, culpa ut? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim minus nam, dolores totam atque molestias error saepe assumenda voluptatum laboriosam quis repellendus animi, id rem quasi dignissimos sint architecto ab.</p>
+
+    <iframe name="iframe" srcdoc="<h1>escolha uma das opções acima</h1><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias praesentium laudantium cumque illo dicta aliquam doloribus soluta quos facilis vero porro quasi totam, sit voluptatem iure consequatur tempora iusto recusandae?</p>">
+            <p>infelizmente seu navegador não é compativel</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores fuga nihil perferendis, dignissimos, optio iure dolores magnam minima at nemo architecto aperiam deserunt. Animi atque ea laudantium autem ratione numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas delectus nihil doloremque quod laboriosam amet voluptate a explicabo quasi hic, ipsa, reprehenderit dolores distinctio minima aliquid nulla maxime. Aperiam, aspernatur.</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus similique illo ea fuga hic id, obcaecati animi maiores quod aut quae, voluptates facilis! Praesentium, quas cum quidem reprehenderit deserunt suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam inventore saepe accusantium illo repudiandae veritatis consectetur id voluptas, consequuntur illum praesentium autem? Molestiae ut, tempore veritatis ab iste doloremque?</p>
+</body>
+</html>
